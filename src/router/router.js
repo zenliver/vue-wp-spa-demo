@@ -12,36 +12,36 @@ export default new Router({
     mode: 'history',
     routes: [
         {
-            path: './',
+            path: '/',
             name: 'Index',
             component: Index
         },
         {
-            path: './page/1',
+            path: '/page/1',
             redirect: '/'
         },
         {
-            path: './page/:page',
+            path: '/page/:page',
             name: 'Page',
             component: Index
         },
         {
-            path: './category',
+            path: '/category',
             name: 'Category',
             component: Category
         },
         {
-            path: './category/:id',
+            path: '/category/:id',
             name: 'Cate',
             component: Cate
         },
         {
-            path: './category/:id/page/:page',
+            path: '/category/:id/page/:page',
             name: 'CatePage',
             component: Cate
         },
         {
-            path: './article/:id',
+            path: '/article/:id',
             name: 'Article',
             component: Article
         },
