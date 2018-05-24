@@ -24,7 +24,7 @@ NProgress.configure({minimum: 0.4,ease:'ease',speed:200,trickleSpeed: 100});
 Vue.prototype.$nprogress = NProgress;
 
 // axios全局配置
-axios.defaults.baseURL = 'http://www.gdszip.com';
+axios.defaults.baseURL = 'https://www.gdszip.com';
 
 // 添加请求拦截器
 axios.interceptors.request.use(function (config) {
