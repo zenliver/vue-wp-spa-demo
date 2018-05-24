@@ -46,6 +46,10 @@ export default new Router({
             component: Article
         },
         {
+            path: '/vue-wp-spa-demo/dist/',
+            redirect: '/'
+        },
+        {
             path: '*',
             name: 'Page404',
             component: Page404
