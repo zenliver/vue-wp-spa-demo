@@ -9,7 +9,7 @@ import Page404 from './../pages/404.vue';
 Vue.use(Router);
 
 export default new Router({
-    mode: 'history',
+    // mode: 'history',
     routes: [
         {
             path: '/',
@@ -44,10 +44,6 @@ export default new Router({
             path: '/article/:id',
             name: 'Article',
             component: Article
-        },
-        {
-            path: '/vue-wp-spa-demo/dist/',
-            redirect: '/'
         },
         {
             path: '*',
