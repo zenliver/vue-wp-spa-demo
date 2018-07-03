@@ -8,7 +8,7 @@ import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
 // NProgress全局配置
-NProgress.configure({minimum: 0.4,ease:'ease',speed:200,trickleSpeed: 100});
+NProgress.configure({minimum: 0.3,ease:'ease',speed:200,trickleSpeed: 200});
 
 // router.beforeEach((to, from, next) => {
 // 	if(to.path == '/') {
